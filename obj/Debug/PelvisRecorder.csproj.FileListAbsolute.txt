@@ -1,0 +1,49 @@
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\libmp3lame.32.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\libmp3lame.64.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\PelvisRecorder.exe.config
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\PelvisRecorder.exe.manifest
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\PelvisRecorder.application
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\PelvisRecorder.exe
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\PelvisRecorder.pdb
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.Lame.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.xml
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.Form1.resources
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.Properties.Resources.resources
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.csproj.GenerateResource.Cache
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.TrustInfo.xml
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.exe.manifest
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.application
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.exe
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.pdb
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\PelvisRecorder.csprojResolveAssemblyReference.cache
+F:\su portatile\TXRXText\TXRXText\bin\Debug\PelvisRecorder.exe.config
+F:\su portatile\TXRXText\TXRXText\obj\Debug\PelvisRecorder.exe
+F:\su portatile\TXRXText\TXRXText\obj\Debug\PelvisRecorder.pdb
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\PelvisRecorder.exe.config
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.exe
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.pdb
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\libmp3lame.32.dll
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\libmp3lame.64.dll
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\PelvisRecorder.exe.manifest
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\PelvisRecorder.application
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\PelvisRecorder.exe
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\PelvisRecorder.pdb
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\NAudio.dll
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\NAudio.Lame.dll
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\Newtonsoft.Json.dll
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\policy.2.0.taglib-sharp.dll
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\NAudio.xml
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\Newtonsoft.Json.xml
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\bin\Debug\policy.2.0.taglib-sharp.config
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.csprojResolveAssemblyReference.cache
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\TXRXText.Form1.resources
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.Properties.Resources.resources
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.csproj.GenerateResource.Cache
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.TrustInfo.xml
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.exe.manifest
+D:\01_Dev\Desktop C#\PelvisRecorder\TXRXText\obj\Debug\PelvisRecorder.application

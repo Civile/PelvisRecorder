@@ -1,0 +1,4 @@
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Release\TXRXText.exe.config
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Release\TXRXText.Form1.resources
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Release\TXRXText.Properties.Resources.resources
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Release\TXRXText.csproj.GenerateResource.Cache

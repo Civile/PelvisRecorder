@@ -1,0 +1,59 @@
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\bin\Debug\TXRXText.exe.config
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\obj\Debug\TXRXText.csprojResolveAssemblyReference.cache
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\obj\Debug\TXRXText.Form1.resources
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\obj\Debug\TXRXText.Properties.Resources.resources
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\obj\Debug\TXRXText.csproj.GenerateResource.Cache
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\bin\Debug\TXRXText.exe
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\bin\Debug\TXRXText.pdb
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\obj\Debug\TXRXText.exe
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\obj\Debug\TXRXText.pdb
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\bin\Debug\CSCore.dll
+c:\users\mario\documents\visual studio 2013\Projects\TXRXText\TXRXText\bin\Debug\CSCore.xml
+E:\TXRXText\TXRXText\bin\Debug\TXRXText.exe.config
+E:\TXRXText\TXRXText\obj\Debug\TXRXText.exe
+E:\TXRXText\TXRXText\obj\Debug\TXRXText.pdb
+E:\TXRXText\TXRXText\bin\Debug\TXRXText.exe
+E:\TXRXText\TXRXText\bin\Debug\CSCore.xml
+E:\TXRXText\TXRXText\obj\Debug\TXRXText.csprojResolveAssemblyReference.cache
+E:\TXRXText\TXRXText\obj\Debug\TXRXText.Form1.resources
+E:\TXRXText\TXRXText\obj\Debug\TXRXText.Properties.Resources.resources
+E:\TXRXText\TXRXText\obj\Debug\TXRXText.csproj.GenerateResource.Cache
+E:\TXRXText\TXRXText\bin\Debug\TXRXText.pdb
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.exe.config
+C:\Users\mario\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.exe
+C:\Users\mario\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.pdb
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.exe
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.pdb
+C:\Users\mario\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.csprojResolveAssemblyReference.cache
+C:\Users\mario\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.Form1.resources
+C:\Users\mario\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.Properties.Resources.resources
+C:\Users\mario\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.csproj.GenerateResource.Cache
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\libmp3lame.32.dll
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\libmp3lame.64.dll
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.dll
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.Lame.dll
+C:\Users\mario\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.xml
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\libmp3lame.32.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\libmp3lame.64.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.exe.config
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.exe
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.pdb
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.Lame.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\NAudio.xml
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.Form1.resources
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.Properties.Resources.resources
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.csproj.GenerateResource.Cache
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.exe
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.pdb
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.csprojResolveAssemblyReference.cache
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\policy.2.0.taglib-sharp.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\policy.2.0.taglib-sharp.config
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.exe.manifest
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\TXRXText.application
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.TrustInfo.xml
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.exe.manifest
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\obj\Debug\TXRXText.application
+C:\Users\Civile7\Desktop\TXRXText\TXRXText\bin\Debug\PelvisRecorder.exe.config
