@@ -9,7 +9,7 @@ Original logo by the artist and web developer: Gabriele Ionfrida
 C# Windows Spotify Ripper, website: [PelvisRecorder](http://projects.edoardocasella.it/pelvisrecorder/)
 
 #When and why I had this idea?
-So, i was trying to "find" somewhere one of my favourite songs - 'Sensitive kind by Eric Clapton' but without success. I've built this solution to solve this biiig-emotionallywasting problem in less than a week. Other online solutions were filled with viruses or incompatible with my pc.   
+The rarities of Eric Clapton inspired me!
 
 # Dependencies 
 NuGet Visual Studio package manager: https://www.nuget.org/
