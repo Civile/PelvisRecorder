@@ -60,6 +60,8 @@
             this.BTN_SkipTrack = new System.Windows.Forms.Button();
             this.BTN_PauseRec = new System.Windows.Forms.Button();
             this.richTextBox1 = new System.Windows.Forms.RichTextBox();
+            this.label_recdevice = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.PBOX_Cover)).BeginInit();
             this.panel1.SuspendLayout();
             this.panel2.SuspendLayout();
@@ -80,10 +82,9 @@
             this.BTN_Rec.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_Rec.ForeColor = System.Drawing.Color.Transparent;
             this.BTN_Rec.Image = ((System.Drawing.Image)(resources.GetObject("BTN_Rec.Image")));
-            this.BTN_Rec.Location = new System.Drawing.Point(185, 30);
-            this.BTN_Rec.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_Rec.Location = new System.Drawing.Point(139, 24);
             this.BTN_Rec.Name = "BTN_Rec";
-            this.BTN_Rec.Size = new System.Drawing.Size(59, 50);
+            this.BTN_Rec.Size = new System.Drawing.Size(44, 41);
             this.BTN_Rec.TabIndex = 0;
             this.BTN_Rec.UseVisualStyleBackColor = false;
             this.BTN_Rec.Click += new System.EventHandler(this.Record_Click);
@@ -96,12 +97,11 @@
             this.TXT_Display.Cursor = System.Windows.Forms.Cursors.Arrow;
             this.TXT_Display.Font = new System.Drawing.Font("Candara", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.TXT_Display.ForeColor = System.Drawing.SystemColors.InactiveCaptionText;
-            this.TXT_Display.Location = new System.Drawing.Point(244, 44);
-            this.TXT_Display.Margin = new System.Windows.Forms.Padding(4);
+            this.TXT_Display.Location = new System.Drawing.Point(183, 36);
             this.TXT_Display.Multiline = true;
             this.TXT_Display.Name = "TXT_Display";
             this.TXT_Display.ReadOnly = true;
-            this.TXT_Display.Size = new System.Drawing.Size(484, 21);
+            this.TXT_Display.Size = new System.Drawing.Size(363, 17);
             this.TXT_Display.TabIndex = 1;
             this.TXT_Display.Text = "<- click to begin recording";
             this.TXT_Display.TextChanged += new System.EventHandler(this.TXT_Display_TextChanged);
@@ -111,10 +111,9 @@
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.ForeColor = System.Drawing.Color.WhiteSmoke;
-            this.label1.Location = new System.Drawing.Point(3, 5);
-            this.label1.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label1.Location = new System.Drawing.Point(2, 4);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(152, 18);
+            this.label1.Size = new System.Drawing.Size(120, 15);
             this.label1.TabIndex = 5;
             this.label1.Text = "Pelvis Spotify ripper";
             // 
@@ -123,13 +122,12 @@
             this.LAB_AuthorLink.AutoSize = true;
             this.LAB_AuthorLink.Font = new System.Drawing.Font("Microsoft Sans Serif", 7.45F);
             this.LAB_AuthorLink.LinkColor = System.Drawing.Color.Silver;
-            this.LAB_AuthorLink.Location = new System.Drawing.Point(473, 5);
-            this.LAB_AuthorLink.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LAB_AuthorLink.Location = new System.Drawing.Point(355, 4);
             this.LAB_AuthorLink.Name = "LAB_AuthorLink";
-            this.LAB_AuthorLink.Size = new System.Drawing.Size(234, 16);
+            this.LAB_AuthorLink.Size = new System.Drawing.Size(188, 13);
             this.LAB_AuthorLink.TabIndex = 6;
             this.LAB_AuthorLink.TabStop = true;
-            this.LAB_AuthorLink.Text = "PelvisRecorder v1.2.7.0 (c) 2014 Civile";
+            this.LAB_AuthorLink.Text = "PelvisRecorder v1.2.8.0 (c) 2014 Civile";
             this.LAB_AuthorLink.MouseClick += new System.Windows.Forms.MouseEventHandler(this.LAB_AuthorLink_Click);
             // 
             // radioButton1_BitRate320
@@ -138,10 +136,9 @@
             this.radioButton1_BitRate320.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1_BitRate320.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1_BitRate320.ForeColor = System.Drawing.Color.Gray;
-            this.radioButton1_BitRate320.Location = new System.Drawing.Point(8, 17);
-            this.radioButton1_BitRate320.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton1_BitRate320.Location = new System.Drawing.Point(6, 14);
             this.radioButton1_BitRate320.Name = "radioButton1_BitRate320";
-            this.radioButton1_BitRate320.Size = new System.Drawing.Size(89, 20);
+            this.radioButton1_BitRate320.Size = new System.Drawing.Size(70, 18);
             this.radioButton1_BitRate320.TabIndex = 7;
             this.radioButton1_BitRate320.Text = "320 kbit/s";
             this.radioButton1_BitRate320.UseVisualStyleBackColor = true;
@@ -152,10 +149,9 @@
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label2.ForeColor = System.Drawing.Color.Gray;
-            this.label2.Location = new System.Drawing.Point(20, 158);
-            this.label2.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label2.Location = new System.Drawing.Point(15, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(61, 18);
+            this.label2.Size = new System.Drawing.Size(48, 15);
             this.label2.TabIndex = 8;
             this.label2.Text = "BitRate";
             // 
@@ -171,10 +167,9 @@
             this.BTN_PlayRecording.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_PlayRecording.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_PlayRecording.ForeColor = System.Drawing.SystemColors.ActiveBorder;
-            this.BTN_PlayRecording.Location = new System.Drawing.Point(53, 2);
-            this.BTN_PlayRecording.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_PlayRecording.Location = new System.Drawing.Point(40, 2);
             this.BTN_PlayRecording.Name = "BTN_PlayRecording";
-            this.BTN_PlayRecording.Size = new System.Drawing.Size(27, 25);
+            this.BTN_PlayRecording.Size = new System.Drawing.Size(20, 20);
             this.BTN_PlayRecording.TabIndex = 10;
             this.BTN_PlayRecording.UseVisualStyleBackColor = false;
             this.BTN_PlayRecording.Visible = false;
@@ -187,10 +182,9 @@
             this.CHK_RecordSilence.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CHK_RecordSilence.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.CHK_RecordSilence.ForeColor = System.Drawing.Color.Gray;
-            this.CHK_RecordSilence.Location = new System.Drawing.Point(18, 310);
-            this.CHK_RecordSilence.Margin = new System.Windows.Forms.Padding(4);
+            this.CHK_RecordSilence.Location = new System.Drawing.Point(14, 252);
             this.CHK_RecordSilence.Name = "CHK_RecordSilence";
-            this.CHK_RecordSilence.Size = new System.Drawing.Size(120, 20);
+            this.CHK_RecordSilence.Size = new System.Drawing.Size(95, 18);
             this.CHK_RecordSilence.TabIndex = 11;
             this.CHK_RecordSilence.Text = "Record silence";
             this.CHK_RecordSilence.UseVisualStyleBackColor = true;
@@ -202,10 +196,9 @@
             this.LBL_FoundSpotify.AutoSize = true;
             this.LBL_FoundSpotify.Font = new System.Drawing.Font("Microsoft Sans Serif", 6.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.LBL_FoundSpotify.ForeColor = System.Drawing.Color.White;
-            this.LBL_FoundSpotify.Location = new System.Drawing.Point(627, 7);
-            this.LBL_FoundSpotify.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.LBL_FoundSpotify.Location = new System.Drawing.Point(470, 6);
             this.LBL_FoundSpotify.Name = "LBL_FoundSpotify";
-            this.LBL_FoundSpotify.Size = new System.Drawing.Size(96, 15);
+            this.LBL_FoundSpotify.Size = new System.Drawing.Size(73, 12);
             this.LBL_FoundSpotify.TabIndex = 12;
             this.LBL_FoundSpotify.Text = "I found SPOTIFY";
             this.LBL_FoundSpotify.Visible = false;
@@ -215,10 +208,9 @@
             this.CHK_SingleTrackRecording.AutoSize = true;
             this.CHK_SingleTrackRecording.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.CHK_SingleTrackRecording.ForeColor = System.Drawing.Color.Gray;
-            this.CHK_SingleTrackRecording.Location = new System.Drawing.Point(18, 287);
-            this.CHK_SingleTrackRecording.Margin = new System.Windows.Forms.Padding(4);
+            this.CHK_SingleTrackRecording.Location = new System.Drawing.Point(14, 233);
             this.CHK_SingleTrackRecording.Name = "CHK_SingleTrackRecording";
-            this.CHK_SingleTrackRecording.Size = new System.Drawing.Size(364, 21);
+            this.CHK_SingleTrackRecording.Size = new System.Drawing.Size(276, 17);
             this.CHK_SingleTrackRecording.TabIndex = 13;
             this.CHK_SingleTrackRecording.Text = "Single track (uncheck to record the tracks separately)";
             this.CHK_SingleTrackRecording.UseVisualStyleBackColor = true;
@@ -233,10 +225,9 @@
             this.BTN_OpenFolder.FlatAppearance.BorderSize = 0;
             this.BTN_OpenFolder.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_OpenFolder.ForeColor = System.Drawing.Color.Transparent;
-            this.BTN_OpenFolder.Location = new System.Drawing.Point(15, 5);
-            this.BTN_OpenFolder.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_OpenFolder.Location = new System.Drawing.Point(11, 4);
             this.BTN_OpenFolder.Name = "BTN_OpenFolder";
-            this.BTN_OpenFolder.Size = new System.Drawing.Size(27, 18);
+            this.BTN_OpenFolder.Size = new System.Drawing.Size(20, 15);
             this.BTN_OpenFolder.TabIndex = 14;
             this.BTN_OpenFolder.UseVisualStyleBackColor = false;
             this.BTN_OpenFolder.MouseClick += new System.Windows.Forms.MouseEventHandler(this.BTN_OpenFolder_Click);
@@ -245,10 +236,9 @@
             // 
             this.PBOX_Cover.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("PBOX_Cover.BackgroundImage")));
             this.PBOX_Cover.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.PBOX_Cover.Location = new System.Drawing.Point(15, 39);
-            this.PBOX_Cover.Margin = new System.Windows.Forms.Padding(4);
+            this.PBOX_Cover.Location = new System.Drawing.Point(11, 32);
             this.PBOX_Cover.Name = "PBOX_Cover";
-            this.PBOX_Cover.Size = new System.Drawing.Size(164, 113);
+            this.PBOX_Cover.Size = new System.Drawing.Size(123, 92);
             this.PBOX_Cover.TabIndex = 15;
             this.PBOX_Cover.TabStop = false;
             // 
@@ -258,10 +248,9 @@
             this.panel1.Controls.Add(this.LAB_AuthorLink);
             this.panel1.Controls.Add(this.BTN_OpenFolder);
             this.panel1.Controls.Add(this.BTN_PlayRecording);
-            this.panel1.Location = new System.Drawing.Point(0, 336);
-            this.panel1.Margin = new System.Windows.Forms.Padding(4);
+            this.panel1.Location = new System.Drawing.Point(0, 273);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(728, 30);
+            this.panel1.Size = new System.Drawing.Size(546, 24);
             this.panel1.TabIndex = 16;
             // 
             // panel2
@@ -270,9 +259,8 @@
             this.panel2.Controls.Add(this.label1);
             this.panel2.Controls.Add(this.LBL_FoundSpotify);
             this.panel2.Location = new System.Drawing.Point(0, 0);
-            this.panel2.Margin = new System.Windows.Forms.Padding(4);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(728, 30);
+            this.panel2.Size = new System.Drawing.Size(546, 24);
             this.panel2.TabIndex = 17;
             // 
             // radioButton1_BitRate128
@@ -282,10 +270,9 @@
             this.radioButton1_BitRate128.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1_BitRate128.Font = new System.Drawing.Font("Arial", 8.25F);
             this.radioButton1_BitRate128.ForeColor = System.Drawing.Color.Gray;
-            this.radioButton1_BitRate128.Location = new System.Drawing.Point(8, 63);
-            this.radioButton1_BitRate128.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton1_BitRate128.Location = new System.Drawing.Point(6, 51);
             this.radioButton1_BitRate128.Name = "radioButton1_BitRate128";
-            this.radioButton1_BitRate128.Size = new System.Drawing.Size(89, 20);
+            this.radioButton1_BitRate128.Size = new System.Drawing.Size(70, 18);
             this.radioButton1_BitRate128.TabIndex = 18;
             this.radioButton1_BitRate128.TabStop = true;
             this.radioButton1_BitRate128.Text = "128 kbit/s";
@@ -300,11 +287,9 @@
             this.groupBox1.Controls.Add(this.radioButton1_BitRate320);
             this.groupBox1.Controls.Add(this.radioButton1_BitRate128);
             this.groupBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox1.Location = new System.Drawing.Point(16, 156);
-            this.groupBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox1.Location = new System.Drawing.Point(12, 127);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox1.Size = new System.Drawing.Size(164, 123);
+            this.groupBox1.Size = new System.Drawing.Size(123, 100);
             this.groupBox1.TabIndex = 19;
             this.groupBox1.TabStop = false;
             // 
@@ -314,10 +299,9 @@
             this.radioButton1_BitRate190.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.radioButton1_BitRate190.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.radioButton1_BitRate190.ForeColor = System.Drawing.Color.Gray;
-            this.radioButton1_BitRate190.Location = new System.Drawing.Point(8, 39);
-            this.radioButton1_BitRate190.Margin = new System.Windows.Forms.Padding(4);
+            this.radioButton1_BitRate190.Location = new System.Drawing.Point(6, 32);
             this.radioButton1_BitRate190.Name = "radioButton1_BitRate190";
-            this.radioButton1_BitRate190.Size = new System.Drawing.Size(89, 20);
+            this.radioButton1_BitRate190.Size = new System.Drawing.Size(70, 18);
             this.radioButton1_BitRate190.TabIndex = 19;
             this.radioButton1_BitRate190.TabStop = true;
             this.radioButton1_BitRate190.Text = "190 kbit/s";
@@ -336,10 +320,9 @@
             "48000 hz",
             "44100 hz",
             "32000 hz"});
-            this.CBOX_Hertz.Location = new System.Drawing.Point(1, 96);
-            this.CBOX_Hertz.Margin = new System.Windows.Forms.Padding(4);
+            this.CBOX_Hertz.Location = new System.Drawing.Point(1, 78);
             this.CBOX_Hertz.Name = "CBOX_Hertz";
-            this.CBOX_Hertz.Size = new System.Drawing.Size(160, 24);
+            this.CBOX_Hertz.Size = new System.Drawing.Size(121, 21);
             this.CBOX_Hertz.TabIndex = 21;
             this.CBOX_Hertz.SelectedIndexChanged += new System.EventHandler(this.CBOX_Hertz_Changed);
             // 
@@ -349,11 +332,9 @@
             this.groupBox2.Controls.Add(this.label4);
             this.groupBox2.Controls.Add(this.pictureBox1);
             this.groupBox2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.groupBox2.Location = new System.Drawing.Point(185, 156);
-            this.groupBox2.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox2.Location = new System.Drawing.Point(139, 127);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox2.Size = new System.Drawing.Size(175, 75);
+            this.groupBox2.Size = new System.Drawing.Size(131, 61);
             this.groupBox2.TabIndex = 22;
             this.groupBox2.TabStop = false;
             // 
@@ -363,10 +344,9 @@
             this.RAD_SpotifySelect.Enabled = false;
             this.RAD_SpotifySelect.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RAD_SpotifySelect.ForeColor = System.Drawing.Color.Gray;
-            this.RAD_SpotifySelect.Location = new System.Drawing.Point(57, 20);
-            this.RAD_SpotifySelect.Margin = new System.Windows.Forms.Padding(4);
+            this.RAD_SpotifySelect.Location = new System.Drawing.Point(43, 16);
             this.RAD_SpotifySelect.Name = "RAD_SpotifySelect";
-            this.RAD_SpotifySelect.Size = new System.Drawing.Size(71, 21);
+            this.RAD_SpotifySelect.Size = new System.Drawing.Size(56, 17);
             this.RAD_SpotifySelect.TabIndex = 2;
             this.RAD_SpotifySelect.TabStop = true;
             this.RAD_SpotifySelect.Text = "Spotify";
@@ -377,10 +357,9 @@
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label4.ForeColor = System.Drawing.Color.Gray;
-            this.label4.Location = new System.Drawing.Point(4, -4);
-            this.label4.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
+            this.label4.Location = new System.Drawing.Point(3, -3);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(107, 18);
+            this.label4.Size = new System.Drawing.Size(86, 15);
             this.label4.TabIndex = 1;
             this.label4.Text = "Specialization";
             // 
@@ -388,10 +367,9 @@
             // 
             this.pictureBox1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.BackgroundImage")));
             this.pictureBox1.InitialImage = ((System.Drawing.Image)(resources.GetObject("pictureBox1.InitialImage")));
-            this.pictureBox1.Location = new System.Drawing.Point(8, 16);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.pictureBox1.Location = new System.Drawing.Point(6, 13);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(40, 31);
+            this.pictureBox1.Size = new System.Drawing.Size(30, 25);
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
@@ -401,11 +379,9 @@
             this.groupBox3.Controls.Add(this.RAD_WAV);
             this.groupBox3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.groupBox3.ForeColor = System.Drawing.Color.Gray;
-            this.groupBox3.Location = new System.Drawing.Point(184, 238);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(4);
+            this.groupBox3.Location = new System.Drawing.Point(138, 193);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(4);
-            this.groupBox3.Size = new System.Drawing.Size(176, 43);
+            this.groupBox3.Size = new System.Drawing.Size(132, 35);
             this.groupBox3.TabIndex = 23;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Format";
@@ -415,10 +391,9 @@
             this.RAD_MP3.AutoSize = true;
             this.RAD_MP3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RAD_MP3.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RAD_MP3.Location = new System.Drawing.Point(84, 17);
-            this.RAD_MP3.Margin = new System.Windows.Forms.Padding(4);
+            this.RAD_MP3.Location = new System.Drawing.Point(63, 14);
             this.RAD_MP3.Name = "RAD_MP3";
-            this.RAD_MP3.Size = new System.Drawing.Size(56, 20);
+            this.RAD_MP3.Size = new System.Drawing.Size(44, 18);
             this.RAD_MP3.TabIndex = 1;
             this.RAD_MP3.Text = "MP3";
             this.RAD_MP3.UseVisualStyleBackColor = true;
@@ -430,10 +405,9 @@
             this.RAD_WAV.Checked = true;
             this.RAD_WAV.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.RAD_WAV.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.RAD_WAV.Location = new System.Drawing.Point(12, 17);
-            this.RAD_WAV.Margin = new System.Windows.Forms.Padding(4);
+            this.RAD_WAV.Location = new System.Drawing.Point(9, 14);
             this.RAD_WAV.Name = "RAD_WAV";
-            this.RAD_WAV.Size = new System.Drawing.Size(57, 20);
+            this.RAD_WAV.Size = new System.Drawing.Size(49, 18);
             this.RAD_WAV.TabIndex = 0;
             this.RAD_WAV.TabStop = true;
             this.RAD_WAV.Text = "WAV";
@@ -445,10 +419,9 @@
             this.checkBox1.AutoSize = true;
             this.checkBox1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.checkBox1.ForeColor = System.Drawing.Color.Gray;
-            this.checkBox1.Location = new System.Drawing.Point(146, 310);
-            this.checkBox1.Margin = new System.Windows.Forms.Padding(4);
+            this.checkBox1.Location = new System.Drawing.Point(110, 252);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(194, 21);
+            this.checkBox1.Size = new System.Drawing.Size(148, 17);
             this.checkBox1.TabIndex = 24;
             this.checkBox1.Text = "Mutes the other processes";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -467,10 +440,9 @@
             this.BTN_SkipTrack.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_SkipTrack.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_SkipTrack.ForeColor = System.Drawing.Color.Gray;
-            this.BTN_SkipTrack.Location = new System.Drawing.Point(349, 69);
-            this.BTN_SkipTrack.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_SkipTrack.Location = new System.Drawing.Point(262, 56);
             this.BTN_SkipTrack.Name = "BTN_SkipTrack";
-            this.BTN_SkipTrack.Size = new System.Drawing.Size(84, 30);
+            this.BTN_SkipTrack.Size = new System.Drawing.Size(63, 24);
             this.BTN_SkipTrack.TabIndex = 25;
             this.BTN_SkipTrack.Text = "skip track";
             this.BTN_SkipTrack.UseVisualStyleBackColor = true;
@@ -483,10 +455,9 @@
             this.BTN_PauseRec.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BTN_PauseRec.Font = new System.Drawing.Font("Arial", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.BTN_PauseRec.ForeColor = System.Drawing.Color.Gray;
-            this.BTN_PauseRec.Location = new System.Drawing.Point(244, 69);
-            this.BTN_PauseRec.Margin = new System.Windows.Forms.Padding(4);
+            this.BTN_PauseRec.Location = new System.Drawing.Point(183, 56);
             this.BTN_PauseRec.Name = "BTN_PauseRec";
-            this.BTN_PauseRec.Size = new System.Drawing.Size(107, 30);
+            this.BTN_PauseRec.Size = new System.Drawing.Size(80, 24);
             this.BTN_PauseRec.TabIndex = 26;
             this.BTN_PauseRec.Text = "pause rec";
             this.BTN_PauseRec.UseVisualStyleBackColor = true;
@@ -499,19 +470,42 @@
             this.richTextBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.richTextBox1.Font = new System.Drawing.Font("Arial", 7.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.richTextBox1.ForeColor = System.Drawing.SystemColors.Highlight;
-            this.richTextBox1.Location = new System.Drawing.Point(382, 162);
+            this.richTextBox1.Location = new System.Drawing.Point(286, 132);
+            this.richTextBox1.Margin = new System.Windows.Forms.Padding(2);
             this.richTextBox1.Name = "richTextBox1";
             this.richTextBox1.ReadOnly = true;
-            this.richTextBox1.Size = new System.Drawing.Size(331, 167);
+            this.richTextBox1.Size = new System.Drawing.Size(248, 96);
             this.richTextBox1.TabIndex = 27;
             this.richTextBox1.Text = resources.GetString("richTextBox1.Text");
             // 
+            // label_recdevice
+            // 
+            this.label_recdevice.AutoSize = true;
+            this.label_recdevice.Location = new System.Drawing.Point(296, 254);
+            this.label_recdevice.Name = "label_recdevice";
+            this.label_recdevice.Size = new System.Drawing.Size(16, 13);
+            this.label_recdevice.TabIndex = 28;
+            this.label_recdevice.Text = "...";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Font = new System.Drawing.Font("Arial", 9F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label5.ForeColor = System.Drawing.Color.Gray;
+            this.label5.Location = new System.Drawing.Point(296, 234);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(105, 15);
+            this.label5.TabIndex = 29;
+            this.label5.Text = "Recording device";
+            // 
             // Form1
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ControlLight;
-            this.ClientSize = new System.Drawing.Size(727, 364);
+            this.ClientSize = new System.Drawing.Size(545, 296);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label_recdevice);
             this.Controls.Add(this.richTextBox1);
             this.Controls.Add(this.BTN_PauseRec);
             this.Controls.Add(this.BTN_SkipTrack);
@@ -529,7 +523,6 @@
             this.Controls.Add(this.TXT_Display);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
-            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "Form1";
             this.Text = "PelvisRecorder";
             this.TransparencyKey = System.Drawing.Color.Linen;
@@ -583,6 +576,8 @@
         private System.Windows.Forms.Button BTN_SkipTrack;
         private System.Windows.Forms.Button BTN_PauseRec;
         private System.Windows.Forms.RichTextBox richTextBox1;
+        private System.Windows.Forms.Label label_recdevice;
+        private System.Windows.Forms.Label label5;
     }
 }
 

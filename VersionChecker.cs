@@ -47,7 +47,7 @@ namespace TXRXText
                 if (JSONResponse != null)
                 {
                     string AppVersion     = Convert.ToString(JSONResponse.Version).Trim();
-                    string AppDescription = Convert.ToString(JSONResponse.Description).Trim();
+                    string AppDescription = Convert.ToString(JSONResponse.Description).Trim().Replace("rar", "").Replace("zip", "");
 
                     if(VersionChecker.CompareVersions(Form1.Version, AppVersion) == -1)
                     {
@@ -84,7 +84,6 @@ namespace TXRXText
         /// <returns>-1 if v1 > v2 || or 1 if v1 < v2</returns>
         private static int CompareVersions(string v1, string v2)
         {
-
             v1 = v1.Replace(".", "");
             v2 = v2.Replace(".", "");
             

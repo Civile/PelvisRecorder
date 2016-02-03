@@ -19,10 +19,11 @@ namespace TXRXText
         /// <returns></returns>
         public static string Spotify_GetTrackName()
         {
+
             Process process;
             if ((process = LookForProcess("spotify")) != null)
             {
-                string SongTitle = process.MainWindowTitle.Replace("Spotify - ", "");
+                string SongTitle = process.MainWindowTitle/*.Replace("Spotify - ", "") not anymore from 1.0.2 spotify*/;
 
                 /*If we are not playing any song*/
                 string SongTitleWithoutSpaces = SongTitle.Replace(" ", String.Empty);
@@ -30,7 +31,7 @@ namespace TXRXText
                 if (SongTitleWithoutSpaces.Length != 0 && SongTitleWithoutSpaces != String.Empty)
                     return SongTitle;
             }
-
+            
             return String.Empty;
         }
 
@@ -57,6 +58,8 @@ namespace TXRXText
 
         }
 
+
+      
 
 
         /// <summary>
@@ -121,7 +124,8 @@ namespace TXRXText
             {
                 if (!String.IsNullOrEmpty(process.MainWindowTitle))
                 {
-                    if (process.ProcessName == processName)
+                    //TOFIX:: TUTTO LOWERCASE
+                    if (process.ProcessName.ToLower() == processName.ToLower())
                     {
                         return process;
                     }
@@ -143,7 +147,7 @@ namespace TXRXText
             {
                 if (!String.IsNullOrEmpty(process.MainWindowTitle))
                 {
-                    if (process.ProcessName == processName)
+                    if (process.ProcessName.ToLower() == processName.ToLower())
                     {
                         return true;
                     }

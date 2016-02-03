@@ -91,14 +91,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PelvisRecorder.exe" size="457728">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="PelvisRecorder.exe" size="458240">
       <assemblyIdentity name="PelvisRecorder" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>SiFIiTiMR46phCbq1x42a8opGgsNiZdmKLBfsB5oMNo=</dsig:DigestValue>
+        <dsig:DigestValue>9Yi0erI6vm/PdSJdyDAGjRz5YdVw9NOHv09dnqGxhV4=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

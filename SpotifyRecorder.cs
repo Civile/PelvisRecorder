@@ -36,6 +36,7 @@ namespace TXRXText
         private string SpotifyFolderName  = "Spotify";
         private string SpotifyProcessName = "spotify";
 
+
         /*Handlers*/
         private string _wNameOutput;
 
@@ -44,6 +45,8 @@ namespace TXRXText
         private bool _SingleTrackRecoring = false;
         private bool _MutesProcesses      = false;
         public  bool  SkipTrack           = false;
+
+        private int CurrentDeviceIndex = 0;
 
         /*Handlers*/
         private DrunkenXMLSailor XMLSailor;
@@ -82,6 +85,12 @@ namespace TXRXText
 
         }
 
+
+        public WaveInCapabilities GetRecordingDevice()
+        {
+            WaveInCapabilities capabilities = NAudio.Wave.WaveIn.GetCapabilities(this.CurrentDeviceIndex);
+            return capabilities;
+        }
 
 
         public bool SingleTrackRecording
@@ -135,8 +144,8 @@ namespace TXRXText
         /// <returns></returns>
         public int StartRecording() 
         {
-            //if (!Common.LookForProcess_Bool(this.SpotifyProcessName))
-              //  return -1;
+            if (!Common.LookForProcess_Bool(this.SpotifyProcessName))
+                return -1;
 
             /*Get destination file name - audio track artist and title*/
             this.DestinationFileName = Common.Spotify_GetTrackName();
@@ -182,14 +191,12 @@ namespace TXRXText
             if (!this._SetDestinationFileName(DestFName))
                 return false;
 
-            int CurrentDeviceIndex = 0;
-
             /*Auto frequency*/
             if (this._Hertz == 0)
                 this._Hertz = this._Capturer.WaveFormat.SampleRate;
 
             /*Select channels FIX*/
-            int Channels = NAudio.Wave.WaveIn.GetCapabilities(CurrentDeviceIndex).Channels;
+            int Channels = NAudio.Wave.WaveIn.GetCapabilities(this.CurrentDeviceIndex).Channels;
 
             if(!base.StartWriter(this._wNameOutput, NAudio.Wave.WaveFormatExtensible.CreateIeeeFloatWaveFormat(this._Hertz, Channels)))
             {
@@ -228,16 +235,18 @@ namespace TXRXText
             DestFName = Common.SanitizeFolderName(DestFName);
 
             this.DestinationFileName = String.Concat(DestFName, ".", base.EnumToFormatName(this._RecordingFormat));
+            string filenameNoExt = DestFName;
             this._wNameOutput = String.Concat(this._DestinationRoot + @"\", DestFName, ".", base.EnumToFormatName(this._RecordingFormat));
 
 
             /*Subdivide by artist*/
             if(this.SubdivideByArtist)
             {
-                string[] ArtistAndSong = this._DestinationFileName.Split(
-                    new Char[] { '–' }
-                );
-
+                string[] ArtistAndSong = filenameNoExt.Split('-');
+                /*
+                MessageBox.Show(ArtistAndSong[0], "My Application",
+                    MessageBoxButtons.OKCancel, MessageBoxIcon.Asterisk);
+                */
                 Common.CreateFolder( String.Concat(
                     this._DestinationRoot, @"\", ArtistAndSong[0].Trim(), @"\") 
                 );
@@ -249,7 +258,7 @@ namespace TXRXText
                 if(!ArtistAndSong[0].Contains("Spotify"))
                     LastFMService.LoadArtistPicture(ArtistAndSong[0], WebHook, XMLSailor, PBOX_Cover);
 
-                this.WriteToDisplay("recording " + ArtistAndSong[0] + " - " + ArtistAndSong[1]);
+               this.WriteToDisplay("recording " + ArtistAndSong[0] + " - " + ArtistAndSong[1]);
             }
 
             return true;

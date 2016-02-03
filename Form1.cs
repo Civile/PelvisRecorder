@@ -9,7 +9,7 @@ using System.Windows.Forms;
 using System.IO;
 using System.Diagnostics;
 
-
+using NAudio.Wave;
 
 /*
 ==============================================================
@@ -36,7 +36,7 @@ namespace TXRXText
     {
         /*APP INFO*/
         private string APPNAME       = "PelvisRecorder";
-        public static string Version = "1.2.7.0";
+        public static string Version = "1.2.8.0";
 
         private string[] DisturbingProcessess = { "Skype", "wmplayer", "thunderbird", "chrome", "firefox" };
 
@@ -107,11 +107,14 @@ namespace TXRXText
 
             this.DestinationFolder = Destination;
 
-
             /*Application Exit event*/
             Application.ApplicationExit += new EventHandler(this.OnApplicationExit);
             /*SpotifyRecorder instance*/
             SpotifyRecorder = new SpotifyRecorder(this.DestinationFolder, this.TXT_Display, null, this.PBOX_Cover);
+            /*Get recording device*/
+            WaveInCapabilities recDevice = SpotifyRecorder.GetRecordingDevice();
+            label_recdevice.Text = recDevice.ProductName;
+
             /*WebHook*/
             WebHook = new CaptainHook();
             /*Specialization*/
