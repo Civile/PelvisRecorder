@@ -1,7 +1,8 @@
-
+<<<<<<< HEAD
 # PelvisRecorder
 C# Windows Spotify Ripper
-
+=======
+# PelvisRecorder | Spotify ripper
 ![PelvisRecorder Logo](http://projects.edoardocasella.it/pelvisrecorder/resources/pelvisrecorderbrand.png)
 
 Original logo by the artist and web developer: Gabriele Ionfrida
@@ -20,4 +21,4 @@ Libraries: NAudio.Lame: https://github.com/Corey-M/NAudio.Lame
 
 3-3-2016: It has been reported to be incompatible with the version 1.0.3.101 of Spotify running on Windows 7 x64. Now Pelvis is able to record from any Spotify version
 
-
+>>>>>>> eaf970d975689881abe0f35fbbc5c4aac2f4c9ae
