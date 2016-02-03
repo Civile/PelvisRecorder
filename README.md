@@ -10,6 +10,7 @@ C# Windows Spotify Ripper, website: [PelvisRecorder](http://projects.edoardocase
 
 #When and why I had this idea?
 The rarities of Eric Clapton inspired me!
+I made it in less then one week! The code is not as it should be and not optimized! Indeed looks surely messy and unstable.
 
 # Dependencies 
 NuGet Visual Studio package manager: https://www.nuget.org/
